@@ -1,0 +1,1 @@
+G:\tafe2020\mobile apps\KeyboardCalculator2\KeyboardCalculator\KeyboardCalculator\KeyboardCalculator.UWP\KeyboardCalculator.UWP.csproj;x86

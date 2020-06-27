@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "XM/ik8u8GCuu65V1hRlt+FgOcCDyIoMF9oMJZgue8XggV5aw5badU+EfyospeqU3/zu/XXc5MuQ5jKvPjcVE7Q==",
+  "success": true,
+  "projectFilePath": "G:\\tafe2020\\mobile apps\\KeyboardCalculator2\\KeyboardCalculator\\KeyboardCalculator\\KeyboardCalculator\\KeyboardCalculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Joeyl\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Joeyl\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Joeyl\\.nuget\\packages\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Users\\Joeyl\\.nuget\\packages\\xamarin.forms\\4.3.0.908675\\xamarin.forms.4.3.0.908675.nupkg.sha512"
+  ],
+  "logs": []
+}

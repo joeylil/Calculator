@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="KeyboardCalculator.MainPage"
+             xmlns:common="clr-namespace:KeyboardCalculator;                                    
+             assembly=KeyboardCalculator">
+    
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="25*"/>
+        </Grid.RowDefinitions>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" HeightRequest="50">
+            <Label Text="Delegate: " Margin="0,5,0,0"/>
+            <Switch Grid.Column="0" Toggled="Switch_Toggled"/>
+        </StackLayout>
+        <Label Grid.Row="1" Text="{Binding display}" FontSize="50" HorizontalTextAlignment="End" HeightRequest="100"/>
+        <StackLayout Grid.Row="2" HeightRequest="800">
+            <common:KeyboardLayout VerticalOptions="EndAndExpand" x:Name="Keyboard"/>
+        </StackLayout>
+    </Grid>
+    
+</ContentPage>
